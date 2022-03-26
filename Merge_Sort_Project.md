@@ -1,0 +1,13 @@
+# Merge Sort Project
+
+## [16,21,11,8,12,22] -> Merge Sort
+
+## Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+	[16,21,11][8,12,22] 
+	[16,21][11][8,2][22]
+	[16][21][11][8][2][22]  
+	[16,21][11][2,8][22]
+	[11,16,21][2,8,22]
+	[2,8,11,16,21,22]
+## Big-O gösterimini yazınız.
+	O(nlogn)
